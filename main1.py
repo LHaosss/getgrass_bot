@@ -76,22 +76,6 @@ async def main():
     _user_id = 'ae56479d-94e7-410f-92de-54a681e05323'
     # TODO 修改代理列表
     socks5_proxy_list = [
-        'socks5://fagdqygd:vtqnh71l1ceh@207.228.32.43:6660',
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.135.196.196:7111",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.13.162:5844",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.135.196.229:7144",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.13:6688",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.69:6744",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.21.115:6146",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.51:6726",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.6.173:7905",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.6.128:7860",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.6.174:7906",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.143:6818",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.13.128:5810",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.126:6801",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.21.150:6181",
-        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.19.218:5586",
         "socks5://cxnqbiiq:qpjhj8xctscy@207.228.19.240:5608",
         "socks5://cxnqbiiq:qpjhj8xctscy@207.135.196.42:6957",
         "socks5://cxnqbiiq:qpjhj8xctscy@207.228.13.43:5725",
