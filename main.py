@@ -77,6 +77,36 @@ async def main():
     # TODO 修改代理列表
     socks5_proxy_list = [
         'socks5://fagdqygd:vtqnh71l1ceh@207.228.32.43:6660',
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.135.196.196:7111",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.13.162:5844",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.135.196.229:7144",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.13:6688",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.69:6744",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.21.115:6146",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.51:6726",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.6.173:7905",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.6.128:7860",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.6.174:7906",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.143:6818",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.13.128:5810",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.126:6801",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.21.150:6181",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.19.218:5586",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.19.240:5608",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.135.196.42:6957",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.13.43:5725",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.135.196.128:7043",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.8.100:5186",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.8.50:5136",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.19.171:5539",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.8.189:5275",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.135.196.224:7139",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.6.100:7832",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.135.196.251:7166",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.144:6819",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.21.95:6126",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.135.196.50:6965",
+        "socks5://cxnqbiiq:qpjhj8xctscy@207.228.35.55:6730"
     ]
     tasks = [asyncio.ensure_future(connect_to_wss(i, _user_id)) for i in socks5_proxy_list]
     await asyncio.gather(*tasks)
